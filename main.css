@@ -1,0 +1,46 @@
+@media (min-width: 992px)
+#mainNav {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    -webkit-transition: padding-top .3s,padding-bottom .3s;
+    transition: padding-top .3s,padding-bottom .3s;
+    border: none;
+    background-color: transparent;
+}
+
+
+@media (min-width: 992px)
+#mainNav.navbar-shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #212529;
+}
+
+
+
+
+button.intro-btn:active, 
+button.intro-btn:focus,
+button.intro-btn:hover {
+	background-color: #fec810;
+	-webkit-box-shadow: 0 0 0 .2rem rgba(254,209,55,.5)!important;
+	box-shadow: 0 0 0 .2rem rgba(254,209,55,.5)!important;
+}
+
+
+
+@media (min-width: 1200px) {
+    .timeline>li {
+        min-height: 170px;
+    }
+}
+
+
+
+
+@media (min-width: 1200px)
+.timeline>li {
+    min-height: 170px;
+}
+
+
